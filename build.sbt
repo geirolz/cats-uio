@@ -38,7 +38,7 @@ lazy val rootJS = project
   .settings(noPublishSettings)
 
 
-lazy val catsEffectVersion = "0.10"
+lazy val catsEffectVersion = "0.10.1"
 lazy val catsEffectDependency = Seq(
   libraryDependencies += "org.typelevel" %%% "cats-effect" % catsEffectVersion)
 
