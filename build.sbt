@@ -45,7 +45,7 @@ lazy val catsEffectDependency = Seq(
 lazy val catsEffectLawsDependency = Seq(
   libraryDependencies += "org.typelevel" %%% "cats-effect-laws" % catsEffectVersion)
 
-lazy val catsVersion = "1.1.0"
+lazy val catsVersion = "1.6.1"
 lazy val catsTestKitDependency = Seq(
   libraryDependencies += "org.typelevel" %%% "cats-testkit" % catsVersion,
   libraryDependencies += "org.typelevel" %%% "cats-laws" % catsVersion)
